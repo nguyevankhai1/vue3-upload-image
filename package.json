@@ -1,6 +1,6 @@
 {
   "name": "vue3-upload-image",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Upload imgae vue 3",
   "main": "dist/vue3-upload-image.common.js",
   "unpkg": "dist/vue3-upload-image.umd.js",
