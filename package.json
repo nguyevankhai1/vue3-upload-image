@@ -1,14 +1,13 @@
 {
   "name": "vue3-upload-image",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Upload imgae vue 3",
-  "main": "main.ts",
-  "private": true,
-  "type": "module",
+  "main": "dist/vue3-upload-image.common.js",
+  "unpkg": "dist/vue3-upload-image.umd.js",
   "author": "khai2k",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "build": "vue-cli-service build --target lib --name vue3-upload-image ./src/index.ts",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
@@ -28,6 +27,8 @@
     "@vue/eslint-config-prettier": "^8.0.0",
     "@vue/eslint-config-typescript": "^12.0.0",
     "@vue/tsconfig": "^0.5.0",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/compiler-sfc": "^3.0.0",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
     "npm-run-all2": "^6.1.1",
@@ -42,10 +43,10 @@
     "upload vue3",
     "vue3-upload-image"
   ],
-  "homepage": "https://github.com/nguyevankhai1/vue3-treeselect",
+  "homepage": "https://github.com/nguyevankhai1/vue3-upload-image",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nguyevankhai1/vue3-treeselect"
+    "url": "git+https://github.com/nguyevankhai1/vue3-upload-image"
   }
 }
